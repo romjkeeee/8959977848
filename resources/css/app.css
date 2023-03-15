@@ -1,0 +1,107 @@
+body{margin-top:20px;
+    background:#eee;
+}
+.m-b-sm {
+    margin-bottom: 10px;
+}
+/* FAQ */
+.faq-item {
+    padding: 20px;
+    margin-bottom: 2px;
+    background: #fff;
+}
+.faq-question {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1ab394;
+    display: block;
+}
+.faq-question:hover {
+    color: #179d82;
+}
+.faq-answer {
+    margin-top: 10px;
+    background: #f3f3f4;
+    border: 1px solid #e7eaec;
+    border-radius: 3px;
+    padding: 15px;
+}
+.faq-item .tag-item {
+    background: #f3f3f4;
+    padding: 2px 6px;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+.ibox {
+    clear: both;
+    margin-bottom: 25px;
+    margin-top: 0;
+    padding: 0;
+}
+.ibox.collapsed .ibox-content {
+    display: none;
+}
+.ibox.collapsed .fa.fa-chevron-up:before {
+    content: "\f078";
+}
+.ibox.collapsed .fa.fa-chevron-down:before {
+    content: "\f077";
+}
+.ibox:after,
+.ibox:before {
+    display: table;
+}
+.ibox-title {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #ffffff;
+    border-color: #e7eaec;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 3px 0 0;
+    color: inherit;
+    margin-bottom: 0;
+    padding: 14px 15px 7px;
+    min-height: 48px;
+}
+.ibox-content {
+    background-color: #ffffff;
+    color: inherit;
+    padding: 15px 20px 20px 20px;
+    border-color: #e7eaec;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 0;
+}
+.ibox-footer {
+    color: inherit;
+    border-top: 1px solid #e7eaec;
+    font-size: 90%;
+    background: #ffffff;
+    padding: 10px 15px;
+}
+/* WRAPPERS */
+#wrapper {
+    width: 100%;
+    overflow-x: hidden;
+}
+.wrapper {
+    padding: 0 20px;
+}
+.wrapper-content {
+    padding: 20px 10px 40px;
+}
+#page-wrapper {
+    padding: 0 15px;
+    min-height: 568px;
+    position: relative !important;
+}
+@media (min-width: 768px) {
+    #page-wrapper {
+        position: inherit;
+        margin: 0 0 0 240px;
+        min-height: 2002px;
+    }
+}
